@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>About Me - Multimedia</title>
+</head>
+<body>
+
+  <h1>About Me - Multimedia Showcase</h1>
+
+  <h2>Responsive Picture Element</h2>
+  <picture>
+    <source media="(min-width: 1024px)" srcset="images/laptop.jpg">
+    <source media="(min-width: 768px)" srcset="images/tablet.jpg">
+    <source media="(max-width: 767px)" srcset="images/mobile.jpg">
+    <img src="images/my-picture.jpg" alt="Gift">
+  </picture>
+
+  <h2>Audio Introduction About Myself</h2>
+  <audio controls>
+    <source src="media/intro.mp3" type="audio/mpeg">
+    <source src="media/intro.ogg" type="audio/ogg">
+    Your browser does not support the audio element.
+  </audio>
+
+  <h2>Short Video Message About Myself</h2>
+  <video width="320" height="240" controls>
+    <source src="media/message.mp4" type="video/mp4">
+    <source src="media/message.webm" type="video/webm">
+    Your browser does not support the video tag.
+  </video>
+
+
+  <p><a href="index.html">Back to Profile</a></p>
+
+</body>
+</html>
